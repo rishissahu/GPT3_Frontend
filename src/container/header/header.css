@@ -1,0 +1,103 @@
+.gpt3__header {
+    display: flex;
+}
+
+.gpt3__header-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+
+    margin-right: 5rem;
+}
+
+.gradient__text {
+    background: linear-gradient(111deg, rgba(0, 0, 0, 1) 0%, rgba(234, 64, 255, 1) 0%, rgba(255, 126, 126, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.gpt3__header-content h1 {
+
+    font-family: var(--font-family);
+    font-weight: bolder;
+    font-size: 62px;
+    line-height: 57px;
+    letter-spacing: -0.04rem;
+}
+
+.gpt3__header-content p {
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 27px;
+    color: var(--color-text);
+
+    margin-top: 1.5rem;
+}
+
+.gpt3__header-content__input {
+    width: 100%;
+    margin: 2rem 0 1rem;
+
+    display: flex;
+}
+
+.gpt3__header-content__input input {
+    flex: 2;
+    width: 100%;
+    min-height: 50px;
+    font-family: var(--font-family);
+    background: var(--color-footer);
+    border-radius: 5px 0 0 5px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 27px;
+    padding: 0 1rem;
+    color: #fff;
+    border: 2px solid var(--color-footer);
+}
+
+.gpt3__header-content__input button{
+    padding: 0.5rem 1rem;
+    color: #fff;
+    background: #ff4820;
+    font-family: var(--font-family);
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 500;
+    left: 1153px;
+    top: 55px;
+    margin-right: 5px;
+    border-radius: 0px 5px 5px 0px;
+    border: 0px;
+    cursor: pointer;
+    outline: none;
+}
+
+.gpt3__header-content__people{
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+
+
+.gpt3__header-content__people img{
+    width: 181.79px;
+    height: 38px;
+}
+.gpt3__header-content__people p{
+    margin: 0 0 0 1rem;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 38px;
+    color: #fff;
+    text-align: center;
+}
