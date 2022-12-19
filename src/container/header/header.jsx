@@ -21,10 +21,10 @@ const Header = () => {
           <img src={people} alt="people" />
           <p>Lorem ipsum dolor sit, amet consectetur adipisicing</p>
         </div>
-        {/* <div className="gpt3__header-image">
-          <img src={ai} />
-        </div> */}
       </div>
+        <div className="gpt3__header-image">
+          <img src={ai} alt="ai-img"/>
+        </div>
     </div>
   )
 }
